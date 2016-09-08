@@ -1,0 +1,90 @@
+﻿#register {
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    width: 100%;
+    background-image: url('../../Images/Bg.png');
+    background-size: 900px 650px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.register_background {
+    position: absolute;
+    top: 60px;
+    left: 900px;
+    height: 430px;
+    width: 480px;
+    background-color: #0f75bf;
+    transform: rotate(-3deg);
+    box-shadow: 0px 0px 25px #888888;
+}
+
+.register_content {
+    position: absolute;
+    top: 60px;
+    left: 900px;
+    height: 430px;
+    width: 480px;
+    background-color: white;
+    box-shadow: 0px 0px 25px #888888;
+}
+
+.register_content_1 {
+    height: 60px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px #cccaca solid;
+}
+
+.account {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 36px;
+    float: left;
+}
+
+.Login {
+    margin: 0;
+    line-height: 60px;
+    float: left;
+    color: blue;
+}
+
+.register_content_2 {
+    margin-left: 36px;
+}
+
+    .register_content_2 p {
+        margin: 12px 0 12px 0;
+        font-size: 17px;
+    }
+
+    .register_content_2 input {
+        width: 407px;
+        height: 39px;
+        background-color: #f5f5f5;
+        border: 1px #cccaca solid;
+    }
+
+.register_content_3 {
+    position: absolute;
+    bottom: 37px;
+    left: 85px;
+}
+
+    .register_content_3 button {
+        height: 36px;
+        width: 175px;
+        border: none;
+        background-color: #185683;
+        color: white;
+        font-size: 16px;
+    }
+
+.register_content_4 {
+    position: absolute;
+    bottom: 37px;
+    right: 35px;
+    font-size: 13px;
+}
