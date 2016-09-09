@@ -8,12 +8,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Login</title>
+    <title>用户登陆</title>
     <link href="~/Content/Login.css" rel="stylesheet" />
 </head>
 <body>
     <div id="register" ng-app="LoginApp" ng-controller="LoginCtrl">
-        <div class="register_background" style="height:380px"></div>
+        <div class="register_background" style="height:380px">
+
+        </div>
         <div class="register_content" style="height:380px">
             <div class="register_content_1">
                 <h4 style="margin:0;line-height:40px;margin-left:20px;float:left">账号</h4>
@@ -21,17 +23,14 @@
             </div>
             <div class="register_content_2">
                 <p>用户名</p>
-                <input type="search" placeholder="*" ng-model="email" />
+                <input type="search" placeholder="*" ng-model="num" />
                 <p>密码</p>
                 <input type="password" placeholder="*" ng-model="password" />                
-                <p style="color:red">原手机用户登录，账号为手机号，初始密码：111111</p>
+                <p style="color:red">用户名为学号，初始密码：111111</p>
             </div>
             <div class="register_content_3">
-                <button ng-click="matching()">立即登陆</button>
-            </div>
-            <div class="register_content_4">
-                <a href="/Login/Register">没有账号，立即注册 >></a>
-            </div>
+                <button ng-click="land()">立即登陆</button>
+            </div>            
         </div>
     </div>
 </body>

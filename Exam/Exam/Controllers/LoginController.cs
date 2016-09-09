@@ -14,8 +14,7 @@ namespace Exam.Controllers
             return View();
         }
         public ActionResult ToLogin(string Email, string Password)
-        {
-            
+        {            
             return Json(false);            
         }
     }
