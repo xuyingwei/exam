@@ -81,3 +81,10 @@
         color: white;
         font-size: 16px;
     }
+
+.register_content_4 {
+    position: absolute;
+    bottom: 37px;
+    right: 35px;
+    font-size: 13px;
+}

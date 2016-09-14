@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <link href="~/Content/Login.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="register" ng-app="RegisterApp" ng-controller="RegisterCtrl">
+        <div class="register_background"></div>
+        <div class="register_content">
+            <div class="register_content_1">
+                <h4 style="margin:0;line-height:40px;margin-left:20px;float:left">账号</h4>
+                <h4 style="margin:0;line-height:40px;float:left;color:blue;">注册</h4>
+            </div>
+            <div class="register_content_2">
+                <p>学号</p>
+                <input type="text" placeholder="&nbsp*" ng-model="studentNumber" />
+                @*<form action="/Home/Register">
+                        <input type="submit" name="a" value="" />
+                        <button type="submit">123</button>
+                    </form>*@
+                <p>密码</p>
+                <input type="password" placeholder="&nbsp*" ng-model="password" />
+                <p>确认密码</p>
+                <input type="password" placeholder="&nbsp*" ng-model="confirmpassword" />
+            </div>
+            <div class="register_content_3">
+                <button ng-click="toregister()">立即注册</button>
+            </div>
+            <div class="register_content_4">
+                <a href="/Login/Login">已有账号，立即登陆 >></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
